@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Star Dev</title>
+  </head>
+  <body>
+    <header>
+      <h2>Star Dev</h2>
+    </header>
+    <main>
+      <section class="cards-main">
+        <div class="card-container">
+          <div class="card-main">
+            <span>caracters</span>
+            <h2 id="people">loading...</h2>
+          </div>
+          <img src="./img/darth.svg" alt="images" />
+        </div>
+        <div class="card-container">
+          <div class="card-main">
+            <span>planet</span>
+            <h2 id="planet">loading...</h2>
+          </div>
+          <img src="./img/planet.svg" alt="images" />
+        </div>
+        <div class="card-container">
+          <div class="card-main">
+            <span>starship</span>
+            <h2 id="starship">loading...</h2>
+          </div>
+          <img src="./img/starship.svg" alt="images" />
+        </div>
+      </section>
+      <section class="phrases-container">
+        <button id="btn-phrases" onclick="loadPhrase()">read a phrase</button>
+        <p id="phrase"></p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
